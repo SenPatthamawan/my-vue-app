@@ -47,16 +47,6 @@
         ></v-checkbox>
       </v-col>
 
-      <v-col
-        class="mb-5"
-        cols="12"
-      >
-        <v-checkbox
-          v-model="test"
-          label="test"
-        ></v-checkbox>
-      </v-col>
-
       <v-col cols="12" v-for="item,index in dataList" :key="index">
         <div v-if="item.text !== 'test2'">{{ item.text }}</div>
       </v-col>
@@ -94,7 +84,7 @@
         this.name = 'betask'
         this.age = '20'
         this.maritalStatus = true
-      }
+      },
     }
   }
 </script>

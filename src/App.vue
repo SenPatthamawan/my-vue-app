@@ -39,18 +39,22 @@
 
     <v-main>
       <HelloWorld/>
+      <LiffLine/>
     </v-main>
   </v-app>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld';
+import LiffLine from './components/LiffLine';
+
 
 export default {
   name: 'App',
 
   components: {
     HelloWorld,
+    LiffLine
   },
 
   data: () => ({
